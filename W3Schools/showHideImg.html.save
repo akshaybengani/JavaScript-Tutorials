@@ -1,0 +1,13 @@
+<html>
+<head>
+	<script>
+
+	</script>
+</head>
+<body>
+
+	<input type="button" value="Display on" onclick="document.getElementById('akshayImg').style.display='block'">
+
+	<img src="img/AkshayColor.jpg" id="akshayImg" width="200px" height="auto">
+</body>
+</html>

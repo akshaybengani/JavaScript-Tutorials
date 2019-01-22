@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+            <h1 id="myhead1">Hey Akshay Bengani</h1>
+            <p id="addData">Lets add some data</p>
+        
+
+
+<script>
+            var name,pars;
+
+            name = prompt("Enter your name");
+            document.write("<h1>" + name + "</h1>");
+            var date = Date();
+            // This date function return the whole date including the time zone
+            document.write("Today's Date is <br>"+date);
+            document.write("<br>Document URL is "+document.baseURI + "<br>Document Title is " + document.title);
+            // This will print the URL of the web page and Will print the tile of the page if you have
+            document.write(pars + "<br>");
+            document.write(pars.length());
+            document.getElementById('addData').innerHTML= "Added some more data"; 
+            // Inner HTML is not a function its a value we assign
+            // getElementById is used to get the ID
+            // In JavaScript we have a function called as console.log() this is used to give specific output or error to the console for recording purpose.
+            console.log("Hey I am a console text")
+            </script>
+ 
+</body>
+</html>
